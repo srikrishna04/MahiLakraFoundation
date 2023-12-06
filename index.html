@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration, Certificate Request, and Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <section class="form-section">
+            <h1>Registration Form</h1>
+            <form id="registration-form">
+                <label for="reg-name">Name:</label>
+                <input type="text" id="reg-name" name="name" required>
+
+                <label for="reg-school">School/College:</label>
+                <input type="text" id="reg-school" name="school" required>
+
+                <label for="reg-city">City:</label>
+                <input type="text" id="reg-city" name="city" required>
+
+                <label for="reg-state">State:</label>
+                <input type="text" id="reg-state" name="state" required>
+
+                <label for="reg-email">Email ID:</label>
+                <input type="email" id="reg-email" name="email" required>
+
+                <button type="submit">Register</button>
+            </form>
+        </section>
+        <section class="form-section">
+            <h1>Request a Certificate</h1>
+            <form id="certificate-form">
+                <label for="cert-name">Name:</label>
+                <input type="text" id="cert-name" name="name" required>
+
+                <label for="cert-email">Email ID:</label>
+                <input type="email" id="cert-email" name="email" required>
+
+                <label for="cert-school">School/College:</label>
+                <input type="text" id="cert-school" name="school" required>
+
+                <label for="cert-date">Date of Seminar:</label>
+                <input type="date" id="cert-date" name="date" required>
+
+                <label for="cert-registration">Registration No:</label>
+                <input type="text" id="cert-registration" name="registration" required>
+
+                <button type="submit">Get your Certificate</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
