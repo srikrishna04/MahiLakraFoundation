@@ -11,7 +11,8 @@
     <div class="container">
         <section class="form-section">
             <h1>Registration Form</h1>
-            <form id="registration-form">
+            
+            <form id="registration-form" method="post" action="/regvalid.php">
                 <label for="reg-name">Name:</label>
                 <input type="text" id="reg-name" name="name" required>
 
@@ -32,7 +33,7 @@
         </section>
         <section class="form-section">
             <h1>Request a Certificate</h1>
-            <form id="certificate-form">
+            <form id="certificate-form" method="post" action="/certvalid.php">
                 <label for="cert-name">Name:</label>
                 <input type="text" id="cert-name" name="name" required>
 
